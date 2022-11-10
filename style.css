@@ -111,6 +111,10 @@ h4 {
     font-family: Creepster;
     color: var(--white);
     font-size: 40px;
+h5 {
+    font-family: Creepster;
+    color: var(--white);
+    font-size: 33px;
 }
 
 body p {
@@ -231,4 +235,42 @@ h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+/* Newsletter */
+
+.news-letter {
+    height: 300px;
+    width: 100%;
+    background-color: var(--middle-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.news-letter-intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.news-letter-input input {
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    width: 200px;
+}
+
+.news-letter-input button {
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    width: 75px;
+    background-color: var(--light-red);
+}
+
+.news-letter-input button p {
+    font-size: 15px;
 }
