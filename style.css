@@ -63,3 +63,28 @@ h1 {
     font-size: 64px;
     letter-spacing: 11px;
 }
+
+body p {
+    font-family: Sen-Regular;
+    color: var(--white);
+}
+
+footer {
+    background-color: var(--light-red);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.socials {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.socials img {
+    width: 40px;
+    height: 40px;
+}
