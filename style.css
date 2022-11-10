@@ -57,11 +57,47 @@ nav {
     width: 100%;
 }
 
+.about {
+    height: 200px;
+    width: 380px;
+    background-color: var(--middle-blue);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.about p {
+    width: 310px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Sen-Regular;
+}
+
+.about button {
+    width: 200px;
+    height: 40px;
+    background-color: var(--light-red);
+    font-family: Sen-Bold;
+    border: none;
+    border-radius: 20px;
+    color: var(--white);
+    font-size: 24px;
+}
+
 h1 {
     font-family: Creepster;
     color: var(--neon);
     font-size: 64px;
     letter-spacing: 11px;
+}
+
+h2 {
+    font-family: Creepster;
+    font-size: 40px;
+    color: var(--white);
 }
 
 h3 {
@@ -95,6 +131,7 @@ h6 {
     flex-direction: column;
     justify-content: space-around;
     flex-grow: 1;
+    margin-top: 15px;
     margin-left: 10%;
 }
 
@@ -103,11 +140,6 @@ h6 {
     align-items: center;
     justify-content: space-around;
     padding-bottom: 10px;
-}
-
-.socials img {
-    width: 40px;
-    height: 40px;
 }
 
 /* Cards */
