@@ -15,6 +15,7 @@
 
 body {
     background-color: var(--darkest-blue);
+    width: 400px;
 }
 
 header {
