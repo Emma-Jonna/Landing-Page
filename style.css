@@ -117,6 +117,7 @@ h6 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 70px;
 }
 
 .card {
