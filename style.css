@@ -56,3 +56,10 @@ header {
 nav {
     width: 100%;
 }
+
+h1 {
+    font-family: Creepster;
+    color: var(--neon);
+    font-size: 64px;
+    letter-spacing: 11px;
+}
