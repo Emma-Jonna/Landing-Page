@@ -64,6 +64,12 @@ h1 {
     letter-spacing: 11px;
 }
 
+h3 {
+    font-family: Creepster;
+    color: black;
+    font-size: 26px;
+}
+
 body p {
     font-family: Sen-Regular;
     color: var(--white);
@@ -114,15 +120,23 @@ footer {
     width: 217px;
 }
 
-.card .sizes {
+.sizes {
     display: flex;
     flex-direction: row;
     gap: 28px;
 }
 
-.card .size {
+.sizes p {
+    color: black;
+}
+
+.size {
     display: flex;
     flex-direction: column;
+}
+
+.size label {
+    font-family: Sen-Regular;
 }
 
 .card button {
@@ -132,6 +146,11 @@ footer {
     width: 300px;
     height: 58px;
     border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
 }
 
 .card button img {
