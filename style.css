@@ -111,6 +111,7 @@ h4 {
     font-family: Creepster;
     color: var(--white);
     font-size: 40px;
+}
 h5 {
     font-family: Creepster;
     color: var(--white);
@@ -235,6 +236,7 @@ h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 /* Newsletter */
 
 .news-letter {
