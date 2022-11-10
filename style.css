@@ -8,6 +8,34 @@
     --white: #FFFFFF;
 }
 
+@font-face {
+    font-family: Creepster;
+    src: local("Creepster"),
+    url("/Fonts/Creepster/Creepster-Regular.woff2") format("woff2"),
+    url("/Fonts/Creepster/Creepster-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: Sen-Regular;
+    src: local("Sen-Regular"),
+    url("/Fonts/Sen/Sen-Regular.woff2") format("woff2"),
+    url("/Fonts/Sen/Sen-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: Sen-ExtraBold;
+    src: local("Sen-Regular"),
+    url("/Fonts/Sen/Sen-ExtraBold.woff2") format("woff2"),
+    url("/Fonts/Sen/Sen-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: Sen-Bold;
+    src: local("Sen-Regular"),
+    url("/Fonts/Sen/Sen-Bold.woff2") format("woff2"),
+    url("/Fonts/Sen/Sen-Bold.woff") format("woff");
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
