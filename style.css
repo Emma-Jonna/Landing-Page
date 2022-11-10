@@ -28,3 +28,53 @@ header {
 nav {
     width: 100%;
 }
+
+/* Cards */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 342px;
+    height: 437px;
+    border-radius: 30px;
+}
+
+.card img {
+    height: 217px;
+    width: 217px;
+}
+
+.card .sizes {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+}
+
+.card .size {
+    display: flex;
+    flex-direction: column;
+}
+
+.card button {
+    background-color: var(--light-red);
+    border-radius: 21px;
+    color: var(--white);
+    width: 300px;
+    height: 58px;
+    border: none;
+}
+
+.card button img {
+    width: 40px;
+    height: 33px;
+}
