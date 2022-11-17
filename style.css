@@ -325,6 +325,7 @@ embed {
 }
 
 .shopping-cart {
+  display: none;
   width: 100%;
   object-fit: cover;
 }
