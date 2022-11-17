@@ -317,6 +317,16 @@ h6 {
   justify-content: center;
 }
 
+.nav-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.hamburger {
+  width: 100%;
+  object-fit: cover;
+}
+
 @media screen and (min-width: 710px) {
   .nav-text {
     display: flex;
