@@ -344,6 +344,19 @@ embed {
   object-fit: cover;
 }
 
+.twitter,
+.facebook {
+  width: 44px;
+  height: 44px;
+  fill: var(--white);
+}
+
+.instagram {
+  stroke: var(--white);
+  width: 44px;
+  height: 44px;
+}
+
 @media screen and (min-width: 710px) {
   .nav-text {
     display: flex;
@@ -363,14 +376,11 @@ embed {
     width: 579px;
     height: 374px;
   }
-  embed{
+  embed {
     height: 430px;
     width: 50px;
   }
   .hero-intro {
     gap: 124px;
   }
-  .news-letter-intro h5 {
-  }
-
 }
