@@ -15,7 +15,7 @@
     url("/Fonts/Creepster/Creepster-Regular.woff") format("woff");
 }
 
-@font-face {    
+@font-face {
   font-family: Sen-Regular;
   src: local("Sen-Regular"), url("/Fonts/Sen/Sen-Regular.woff2") format("woff2"),
     url("/Fonts/Sen/Sen-Regular.woff") format("woff");
@@ -163,25 +163,26 @@ h6 {
 }
 
 .hero-intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .hero img {
-    width: 313px;
-    height: 202px;
-    border-radius: 20px;
+  width: 313px;
+  height: 202px;
+  border-radius: 20px;
 }
 
 /* Cards */
 
-.cards {
+.cards,
+.process {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 70px;
 }
 
@@ -237,12 +238,6 @@ h6 {
 .card button img {
   width: 40px;
   height: 33px;
-}
-
-.process {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .process img {
@@ -308,6 +303,11 @@ h6 {
   display: none;
 }
 
+.process {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 710px) {
   .nav-text {
     display: flex;
@@ -319,5 +319,8 @@ h6 {
   }
   .hamburger {
     display: none;
+  }
+  .about {
+    width: 384px;
   }
 }
