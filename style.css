@@ -15,7 +15,7 @@
     url("/Fonts/Creepster/Creepster-Regular.woff") format("woff");
 }
 
-@font-face {    
+@font-face {
   font-family: Sen-Regular;
   src: local("Sen-Regular"), url("/Fonts/Sen/Sen-Regular.woff2") format("woff2"),
     url("/Fonts/Sen/Sen-Regular.woff") format("woff");
@@ -164,24 +164,24 @@ h6 {
 /* Hero */
 
 .hero {
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .hero img {
-    width: 313px;
-    height: 202px;
-    border-radius: 20px;
+  width: 313px;
+  height: 202px;
+  border-radius: 20px;
 }
 
 /* Cards */
@@ -328,5 +328,8 @@ h6 {
   }
   .hamburger {
     display: none;
+  }
+  .about {
+    width: 384px;
   }
 }
