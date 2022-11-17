@@ -220,6 +220,11 @@ embed {
   width: 342px;
   height: 437px;
   border-radius: 30px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  scale: 1.05;
 }
 
 .card img {
@@ -325,6 +330,7 @@ embed {
 }
 
 .shopping-cart {
+  display: none;
   width: 100%;
   object-fit: cover;
 }
