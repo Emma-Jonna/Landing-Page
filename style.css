@@ -8,10 +8,6 @@
   --white: #ffffff;
 }
 
-body {
-  font-family: en-Regular;
-}
-
 @font-face {
   font-family: Creepster;
   src: local("Creepster"),
@@ -58,6 +54,14 @@ header {
 nav {
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem 0 2rem;
+}
+
+.nav-text p {
+  font-family: Creepster;
+  font-size: 32px;
 }
 
 .about {
@@ -306,11 +310,23 @@ h6 {
 }
 
 .nav-text {
-  display: flex;
-  justify-content: space-around;
-  flex-grow: 1;
+  display: none;
 }
 
-.hamburger {
-  align-self: flex-end;
+.shopping-cart {
+  display: none;
+}
+
+@media screen and (min-width: 710px) {
+  .nav-text {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+  .shopping-cart {
+    display: inline-block;
+  }
+  .hamburger {
+    display: none;
+  }
 }
