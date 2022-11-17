@@ -162,6 +162,7 @@ h6 {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 50px;
+  gap: 30px;
 }
 
 .hero-intro {
@@ -170,9 +171,16 @@ h6 {
   align-items: center;
 }
 
-.hero img {
+.hero-img {
   width: 313px;
   height: 202px;
+  transition: 0.2s;
+}
+
+.hero img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
   border-radius: 20px;
 }
 
@@ -323,5 +331,9 @@ h6 {
   }
   .about {
     width: 384px;
+  }
+  .hero-img {
+    width: 579px;
+    height: 374px;
   }
 }
