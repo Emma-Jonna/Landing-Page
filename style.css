@@ -163,11 +163,12 @@ h6 {
 
 /* Cards */
 
-.cards {
+.cards,
+.process {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 70px;
 }
 
@@ -223,12 +224,6 @@ h6 {
 .card button img {
   width: 40px;
   height: 33px;
-}
-
-.process {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .process img {
@@ -292,6 +287,11 @@ h6 {
 
 .shopping-cart {
   display: none;
+}
+
+.process {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (min-width: 710px) {
