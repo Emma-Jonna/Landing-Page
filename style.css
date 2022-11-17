@@ -74,6 +74,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  transition: 0.2s;
 }
 
 .about p {
@@ -115,6 +116,8 @@ h5 {
   font-family: Creepster;
   color: var(--white);
   font-size: 33px;
+  margin: 0;
+  display: inline-block;
 }
 
 body p {
@@ -162,13 +165,20 @@ h6 {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 50px;
+  margin-bottom: 96px;
   gap: 30px;
+}
+
+embed {
+  height: 271px;
+  width: 38px;
+  transform: 0.2s;
 }
 
 .hero-intro {
   display: flex;
   justify-content: center;
-  align-items: center;
+  gap: 22px;
 }
 
 .hero-img {
@@ -336,4 +346,14 @@ h6 {
     width: 579px;
     height: 374px;
   }
+  embed{
+    height: 430px;
+    width: 50px;
+  }
+  .hero-intro {
+    gap: 124px;
+  }
+  .news-letter-intro h5 {
+  }
+
 }
