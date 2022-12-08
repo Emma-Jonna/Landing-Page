@@ -109,7 +109,7 @@ nav {
   transition: 0.3s;
 }
 
-.about button:hover {
+.about button:active {
   scale: 0.98;
   background-color: #bf3d3d;
 }
@@ -335,7 +335,7 @@ embed {
   background-color: var(--light-red);
 }
 
-.news-letter-input button:hover {
+.news-letter-input button:active {
   scale: 0.98;
   background-color: #bf3d3d;
 }
@@ -391,9 +391,14 @@ embed {
   fill: var(--white);
 }
 
-.hamburger:hover {
+.hamburger:active {
   fill: var(--neon);
   transition: 0.3s;
+}
+
+.card button:active {
+  background-color: #bf3d3d;
+  scale: 0.98;
 }
 
 @media screen and (min-width: 710px) {
@@ -423,6 +428,16 @@ embed {
   .shopping-cart:hover {
     fill: var(--neon);
     transition: 0.3s;
+  }
+
+  .about button:hover {
+    scale: 0.98;
+    background-color: #bf3d3d;
+  }
+
+  .news-letter-input button:hover {
+    scale: 0.98;
+    background-color: #bf3d3d;
   }
   .shopping-cart {
     display: inline-block;
