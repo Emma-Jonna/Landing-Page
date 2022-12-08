@@ -108,11 +108,6 @@ nav {
   transition: 0.3s;
 }
 
-.about button:hover {
-  scale: 0.98;
-  background-color: #bf3d3d;
-}
-
 h2 {
   font-family: Creepster;
   font-size: 40px;
@@ -343,11 +338,6 @@ embed {
   background-color: var(--light-red);
 }
 
-.news-letter-input button:hover {
-  scale: 0.98;
-  background-color: #bf3d3d;
-}
-
 .news-letter-input input {
   padding-left: 16px;
 }
@@ -409,9 +399,19 @@ embed {
   fill: var(--white);
 }
 
-.hamburger:hover {
+.hamburger {
+  transition: 0.2s;
+}
+
+.hamburger:active {
   fill: var(--neon);
-  transition: 0.3s;
+}
+
+.about button:active,
+.card button:active,
+.news-letter-input button:active {
+  scale: 0.98;
+  background-color: #bf3d3d;
 }
 
 @media screen and (min-width: 710px) {
@@ -478,5 +478,15 @@ embed {
   .card button:hover {
     background-color: #bf3d3d;
     scale: 0.98;
+  }
+
+  .about button:hover {
+    scale: 0.98;
+    background-color: #bf3d3d;
+  }
+
+  .news-letter-input button:hover {
+    scale: 0.98;
+    background-color: #bf3d3d;
   }
 }
