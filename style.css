@@ -389,4 +389,17 @@ embed {
   .hero-intro {
     gap: 124px;
   }
+  footer {
+    flex-direction: row;
+  }
+
+  .socials {
+    flex-grow: 1;
+    justify-content: center;
+    gap: 58px;
+  }
+
+  .footer-text {
+    flex-grow: 0;
+  }
 }
