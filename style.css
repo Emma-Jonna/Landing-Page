@@ -335,7 +335,7 @@ embed {
   background-color: #bf3d3d;
 }
 
-.news-letter-input input::placeholder {
+.news-letter-input input {
   padding-left: 16px;
 }
 
