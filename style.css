@@ -321,6 +321,10 @@ embed {
   background-color: var(--light-red);
 }
 
+.news-letter-input input::placeholder {
+  padding-left: 16px;
+}
+
 .news-letter-input button p {
   font-size: 15px;
 }
