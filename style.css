@@ -373,6 +373,16 @@ embed {
     justify-content: space-around;
     flex-grow: 1;
   }
+
+  .nav-text p:hover {
+    color: var(--neon);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .shopping-cart:hover {
+    fill: var(--neon);
+  }
   .shopping-cart {
     display: inline-block;
   }
@@ -400,5 +410,14 @@ embed {
   }
   .footer-text {
     flex-grow: 0;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  .card button:hover {
+    background-color: #bf3d3d;
+    transition: 0.3s;
   }
 }
