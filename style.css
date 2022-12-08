@@ -398,10 +398,21 @@ embed {
     flex-grow: 1;
   }
 
-  .nav-text p:hover {
+  .nav-text p:hover,
+  .shopping-cart:hover {
     color: var(--neon);
     transition: 0.3s;
     cursor: pointer;
+  }
+
+  .footer-text p:hover,
+  .instagram:hover,
+  .twitter:hover,
+  .facebook:hover {
+    color: var(--white);
+    transition: 0.3s;
+    cursor: pointer;
+    opacity: 70%;
   }
 
   .shopping-cart:hover {
