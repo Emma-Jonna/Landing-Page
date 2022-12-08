@@ -287,10 +287,15 @@ embed {
 .process-card {
   width: 250px;
   height: 330px;
+  margin-top: 48px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+}
+
+.process-card p {
+  text-align: center;
 }
 /* Newsletter */
 
