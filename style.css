@@ -145,7 +145,7 @@ footer {
   flex-direction: column;
   justify-content: space-around;
   padding-bottom: 20px;
-  padding: 40px 0px 40px 0px
+  padding: 40px 0px 40px 0px;
 }
 
 h6 {
@@ -342,12 +342,16 @@ embed {
   padding-left: 16px;
 }
 
-.news-letter-input button p, .card button p, .about button {
+.news-letter-input button p,
+.card button p,
+.about button {
   font-size: 20px;
   font-family: "Sen-Bold";
 }
 
-.news-letter-input button, .card button, .about button {
+.news-letter-input button,
+.card button,
+.about button {
   height: 40px;
   border-radius: 16px;
 }
@@ -419,6 +423,10 @@ embed {
     display: flex;
     justify-content: space-around;
     flex-grow: 1;
+  }
+
+  footer {
+    height: 200px;
   }
 
   .nav-text p:hover,
