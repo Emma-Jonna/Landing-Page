@@ -245,12 +245,14 @@ embed {
 .sizes {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 28px;
   text-align: center;
 }
 
 .sizes p {
   color: black;
+  font-size: 20px;
 }
 
 .size {
@@ -260,6 +262,12 @@ embed {
 
 .size label {
   font-family: Sen-Regular;
+  font-size: 20px;
+}
+
+.size input {
+  width: 20px;
+  height: 20px;
 }
 
 .card button {
@@ -278,7 +286,7 @@ embed {
 
 .card button img {
   width: 40px;
-  height: 33px;
+  height: 26px;
 }
 
 .process img {
@@ -345,8 +353,18 @@ embed {
   padding-left: 16px;
 }
 
-.news-letter-input button p {
-  font-size: 15px;
+.news-letter-input button p, .card button p, .about button {
+  font-size: 20px;
+  font-family: "Sen-Bold";
+}
+
+.news-letter-input button, .card button, .about button {
+  height: 40px;
+  border-radius: 16px;
+}
+
+.card button {
+  width: 220px;
 }
 
 .nav-text {
